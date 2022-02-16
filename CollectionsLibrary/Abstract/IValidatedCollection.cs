@@ -7,6 +7,6 @@ namespace CollectionsLibrary.Abstract
 {
     public interface IValidatedCollection<T,TValidator>:ICollection<T> where TValidator:  AbstractValidator<T>,new()
     {
-        public void CopyTo(IValidatedCollection<T,TValidator> validatedCollection);
+         void CopyTo(IValidatedCollection<T,TValidator> validatedCollection);
     }
 }

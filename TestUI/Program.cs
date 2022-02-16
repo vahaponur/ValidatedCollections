@@ -9,7 +9,7 @@ namespace TestUI
     {
         static void Main(string[] args)
         {
-            FailedValidatedExample();
+            ValidatedExample();
         }
 
         private static void ValidatedExample()

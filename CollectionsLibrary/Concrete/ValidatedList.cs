@@ -61,7 +61,8 @@ namespace CollectionsLibrary.Concrete
         {
             foreach (var arrItem in array)
             {
-                if ((object)arrItem == (object)item)
+                bool equal =arrItem.Equals(item);
+                if (equal)
                 {
                     return true;
                 }
